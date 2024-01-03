@@ -1,0 +1,116 @@
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {...} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */
+
+/* @media screen and (max-width: 700px) and (min-width: 400px)  {
+    body {
+        background-color: aqua;
+    }
+} */
+
+@media screen and (min-width:640px) {
+    .company-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .company-title {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+}
+
+
+@media screen and (min-width:769px) {
+    .nav {
+        display: flex;
+    }
+
+    .contact-button {
+        display: block;
+    }
+
+    /* *  Hero Section */
+    .main-section {
+        flex-direction: row;
+    }
+
+    .content-left {
+        max-width: 50%;
+        text-align: left;
+    }
+
+    .section-label {
+        font-size: 1rem;
+    }
+
+    .section-title {
+        padding-left: 0;
+        font-size: 3.5rem;
+    }
+
+    .section-desc {
+        font-size: 1.1rem;
+        width: 80%;
+    }
+
+    .buttons-group {
+        justify-content: start;
+        padding-left: 0;
+    }
+
+    .image-container {
+        height: 75vh;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .footer-grid-column {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .menu-button {
+        display: block;
+    }
+
+    .feature-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .testimonial-grid {
+        flex-wrap: wrap;
+    }
+
+    .news-left {
+        display: none;
+    }
+
+    .newsletter-content {
+        justify-content: center;
+        padding: 4rem;
+    }
+
+    .news-right {
+        padding: 0;
+    }
+
+
+}

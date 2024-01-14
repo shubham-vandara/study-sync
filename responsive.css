@@ -72,17 +72,11 @@
     .image-container {
         height: 75vh;
     }
-}
 
-@media screen and (max-width: 800px) {
-    .footer {
-        flex-direction: column;
-        align-items: center;
-        gap: 1rem;
-    }
-
-    .footer-grid-column {
-        margin-bottom: 1rem;
+    .footer-top {
+        flex: 2;
+        align-items: flex-start;
+        width: auto;
     }
 }
 

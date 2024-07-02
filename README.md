@@ -1,6 +1,6 @@
-# StudySync
+# Study Sync
 
-StudySync is a static, responsive single-page web design project built using HTML and CSS. It features various sections.
+Study Sync is a static, responsive single-page web design project built using HTML and CSS. It features various sections.
 
 ## Features
 
@@ -17,7 +17,7 @@ To start exploring StudySync and its codebase, you have a couple of options:
 
 ### View the Website
 
-Visit the StudySync website hosted on GitHub Pages by following this link: [StudySync Website](https://shubham-vandara.github.io/StudySync/). This allows you to experience the website's features and layout directly in your browser.
+Visit the StudySync website hosted on GitHub Pages by following this link: [Study Sync Website](https://shubham-vandara.github.io/study-sync/). This allows you to experience the website's features and layout directly in your browser.
 
 ### Clone the Repository
 
@@ -27,4 +27,5 @@ To explore the code or contribute to the project, clone the repository to your l
 2. Run the following command to clone the repository:
 
    ```bash
-   git clone https://github.com/shubham-vandara/StudySync.git
+   git clone https://shubham-vandara.github.io/study-sync/
+   ```
